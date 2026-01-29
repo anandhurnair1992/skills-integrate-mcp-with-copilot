@@ -1,2 +1,5 @@
 fastapi
 uvicorn
+
+# Pydantic is required for request models and EmailStr
+pydantic
