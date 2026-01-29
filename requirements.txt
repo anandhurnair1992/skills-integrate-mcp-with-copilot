@@ -3,3 +3,9 @@ uvicorn
 
 # Pydantic is required for request models and EmailStr
 pydantic
+
+# SQLAlchemy for ORM and database management
+sqlalchemy
+
+# Python SQLite adapter (built-in for SQLite, but included for clarity)
+# For production, use: psycopg2-binary (PostgreSQL) or mysql-connector-python (MySQL)
